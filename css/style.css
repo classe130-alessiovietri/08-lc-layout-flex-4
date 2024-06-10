@@ -18,3 +18,88 @@ html {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+.flex-container {
+    display: flex;
+}
+
+header, main {
+    margin-bottom: 20px;
+}
+
+.column-25 {
+    width: 25%;
+}
+
+.column-50 {
+    width: 50%;
+}
+
+/* 
+    MAIN
+*/
+main nav {
+    padding: 10px;
+}
+
+main nav ul {
+    list-style: none;
+}
+
+main nav ul li {
+    margin-bottom: 10px;
+    padding: 5px;
+    color: white;
+}
+
+main nav ul li a {
+    color: white;
+}
+
+main aside .adv {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main aside {
+    padding: 10px;
+}
+
+/* 
+    DEBUG
+*/
+.debug .header-content,
+.debug .footer-content {
+    min-height: 100px;
+}
+
+.debug .header-content {
+    background-color: #DAA520;
+}
+
+.debug .footer-content {
+    background-color: #ADD8E6;
+}
+
+.debug .flex-container > * {
+    min-height: 200px;
+}
+
+.debug .pink {
+    background-color: pink;
+}
+
+.debug .purple {
+    background-color: purple;
+}
+
+.debug ul li {
+    background-color: red;
+}
